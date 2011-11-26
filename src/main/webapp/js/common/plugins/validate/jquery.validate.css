@@ -1,0 +1,23 @@
+.correct {
+	text-align: center;
+	background-image: url("images/correct.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+label.error {
+	background: url("images/unchecked.gif") no-repeat 0px 0px;
+	padding-left: 16px;
+	padding-bottom: 2px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #EA5200;
+}
+
+input.error {
+	border: 1px solid red;
+}
+
+label.checked {
+	background: url("images/checked.gif") no-repeat 0px 0px;
+}

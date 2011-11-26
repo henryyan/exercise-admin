@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+        "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="account" namespace="/account" extends="struts-default">
+		<action name="login_*" class="cn.wsria.finance.web.account.UserAction" method="{1}">
+			<result name="loginUI">/frame/login.jsp</result>
+			<result>/frame/index.jsp</result>
+		</action>
+	</package>
+</struts>

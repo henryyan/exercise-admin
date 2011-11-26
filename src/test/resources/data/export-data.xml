@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <t_admin_authority id="1" name="&#27983;&#35272;&#29992;&#25143;"/>
+  <t_admin_authority id="2" name="&#20462;&#25913;&#29992;&#25143;"/>
+  <t_admin_authority id="3" name="&#27983;&#35272;&#35282;&#33394;"/>
+  <t_admin_authority id="4" name="&#20462;&#25913;&#35282;&#33394;"/>
+  <t_admin_role id="1" name="&#31649;&#29702;&#21592;"/>
+  <t_admin_role id="2" name="&#29992;&#25143;"/>
+  <t_admin_role_authority role_id="1" authority_id="1"/>
+  <t_admin_role_authority role_id="1" authority_id="2"/>
+  <t_admin_role_authority role_id="1" authority_id="3"/>
+  <t_admin_role_authority role_id="1" authority_id="4"/>
+  <t_admin_role_authority role_id="2" authority_id="1"/>
+  <t_admin_role_authority role_id="2" authority_id="3"/>
+  <t_admin_system_property id="1" enable="true" prop_describe="Property1404-describe" prop_key="Property1404-key" prop_name="Property1404-name" prop_value="Property1404-value" visible="true"/>
+  <t_admin_system_property id="2" enable="true" prop_describe="Property1951-describe" prop_key="Property1951-key" prop_name="Property1951-name" prop_value="Property1951-value" visible="true"/>
+  <t_admin_system_property id="3" enable="true" prop_describe="Property405-describe" prop_key="Property405-key" prop_name="Property405-name" prop_value="Property405-value" visible="true"/>
+  <t_admin_system_property id="4" enable="true" prop_describe="Property6747-describe" prop_key="Property6747-key" prop_name="Property6747-name" prop_value="Property6747-value" visible="true"/>
+  <t_admin_system_property id="5" enable="true" prop_describe="Property8704-describe" prop_key="Property8704-key" prop_name="Property8704-name" prop_value="Property8704-value" visible="true"/>
+  <t_admin_system_property id="6" enable="true" prop_describe="Property376-describe" prop_key="Property376-key" prop_name="Property376-name" prop_value="Property376-value" visible="true"/>
+  <t_admin_system_property id="7" enable="true" prop_describe="Property1052-describe" prop_key="Property1052-key" prop_name="Property1052-name" prop_value="Property1052-value" visible="true"/>
+  <t_admin_system_property id="8" enable="true" prop_describe="Property1861-describe" prop_key="Property1861-key" prop_name="Property1861-name" prop_value="Property1861-value" visible="true"/>
+  <t_admin_system_property id="9" enable="true" prop_describe="Property2122-describe" prop_key="Property2122-key" prop_name="Property2122-name" prop_value="Property2122-value" visible="true"/>
+  <t_admin_system_property id="10" enable="true" prop_describe="Property2715-describe" prop_key="Property2715-key" prop_name="Property2715-name" prop_value="Property2715-value" visible="true"/>
+  <t_admin_system_property id="11" enable="true" prop_describe="&#27700;&#31435;&#26041;&#20026;&#20102;&#38450;" prop_key="sms.&#39044;&#23450;&#30701;&#20449;" prop_name="&#39044;&#23450;&#30701;&#20449;" prop_value="&#24744;&#24050;&#39044;&#35746;#venueName#date,#period&#30340;&#22330;&#22320;&#12290;&#35831;&#20445;&#30041;&#39564;&#35777;&#30721;#code,&#20197;&#20415;&#36827;&#34892;&#36523;&#20221;&#35748;&#35777;&#12290;" visible="false"/>
+  <t_admin_system_property id="12" enable="true" prop_describe="" prop_key="sms.&#21462;&#28040;&#39044;&#35746;" prop_name="&#21462;&#28040;&#39044;&#35746;" prop_value="&#24744;&#39044;&#35746;#venueName#date,#period&#30340;&#22330;&#22320;,&#24050;&#32463;&#21462;&#28040;,&#33509;&#26377;&#30097;&#38382;&#35831;&#25320;&#25171;#telphone&#32852;&#32476;&#22330;&#22320;&#31649;&#29702;&#21592;&#12290;" visible="false"/>
+  <t_admin_user id="1" email="admin@runchain.com" login_name="admin" name="Admin" password="admin"/>
+  <t_admin_user id="2" email="user@runchain.com" login_name="user" name="User" password="user"/>
+  <t_admin_user id="3" email="jack@runchain.com" login_name="user2" name="Jack" password="user2"/>
+  <t_admin_user id="4" email="kate@runchain.com" login_name="user3" name="Kate" password="user3"/>
+  <t_admin_user id="5" email="sawyer@runchain.com" login_name="user4" name="Sawyer" password="user4"/>
+  <t_admin_user id="6" email="ben@runchain.com" login_name="user5" name="Ben" password="user5"/>
+  <t_admin_user id="9" email="" login_name="bbbb" name="sss" password="dddddd"/>
+  <t_admin_user id="10" email="" login_name="bbbbb" name="admins" password="sssssssss"/>
+  <t_admin_user_role user_id="1" role_id="1"/>
+  <t_admin_user_role user_id="1" role_id="2"/>
+  <t_admin_user_role user_id="2" role_id="2"/>
+  <t_admin_user_role user_id="3" role_id="2"/>
+  <t_admin_user_role user_id="4" role_id="2"/>
+  <t_admin_user_role user_id="5" role_id="2"/>
+  <t_admin_user_role user_id="6" role_id="2"/>
+  <t_admin_user_role user_id="9" role_id="1"/>
+  <t_admin_user_role user_id="10" role_id="1"/>
+</dataset>

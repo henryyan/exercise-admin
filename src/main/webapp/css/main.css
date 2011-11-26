@@ -1,0 +1,42 @@
+.ui-menu-item a {
+    font-size: 62.5%;
+}
+
+input[type = text] {
+    font-weight: bold;
+    height: 2.2em;
+    padding: 2px;
+}
+
+input[type = text], input[type = password], textarea, select {
+    background-color: #fff;
+    border: 1px solid #bbb;
+    padding: 3px;
+}
+
+input[type = text]:focus, input[type = password]:focus, textarea:focus, select:focus {
+    border-color: #666;
+}
+
+label {
+    font-weight: bold;
+}
+
+.venueTip {
+    padding-left: 5.5em;
+    padding-top: 1em;
+    display: block;
+}
+
+.ui-autocomplete-category {
+    font-weight: bold;
+    font-size: 70%;
+}
+
+.current-menu {
+    border: 1px dotted white;
+}
+
+.venue {display: none;}
+
+#currentVenue {font-weight: bold;}

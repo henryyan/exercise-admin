@@ -1,0 +1,137 @@
+/* global */
+body {margin: 0px;}
+a {color: #4d87ce;}
+
+th, td {border-color: #999;}
+
+table.noborder th, table.noborder td {border: none;}
+
+/*
+.error,.success    { padding: .5em; margin-bottom: 1em; margin-top: 1em; border: 2px solid #ddd; }
+.error      { background: #FBE3E4; color: #8a1f11; border-color: #FBC2C4; }
+.success    { background: #E6EFC2; color: #264409; border-color: #C6D880; }
+.error a    { color: #8a1f11; }
+.success a  { color: #264409; }*/
+
+.merror,.msuccess    { padding: .5em; margin-bottom: 1em; margin-top: 1em; border: 2px solid #ddd; }
+.merror      { background: #FBE3E4; color: #8a1f11; border-color: #FBC2C4; }
+.msuccess    { background: #E6EFC2; color: #264409; border-color: #C6D880; }
+.merror a    { color: #8a1f11; }
+.msuccess a  { color: #264409; }
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* form */
+input[type=text], input[type=password], textarea, select {
+  background-color:#fff;
+  border:1px solid #bbb;
+  padding:2px;
+}
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus {
+  border-color:#666;
+}
+
+/* header */
+#title h1 {
+	font-size: 153.9%;
+	letter-spacing: .1em;
+	margin:0.5em  0;
+}
+
+#title h2 {
+	color: #999;
+	letter-spacing: .1em;
+	margin:0.5em 0;
+}
+
+#menu ul {
+	margin:0 0 0 0;
+	padding: 0.5em;
+	font-weight: bold;
+	background: #BACE87;
+	border-top: 2px solid #658A16;
+	border-bottom: 2px solid #658A16;
+}
+
+#menu li {display: inline;}
+
+#menu ul a {
+	padding: 0.5em;
+	text-decoration: none;
+	color: #fff;
+}
+
+#menu a:hover {background: #658A16;}
+
+/* body */
+#filter,#content {margin-top:1em;}
+
+/* footer */
+#ft {
+	margin-top: 15px;
+	padding: 15px 0px 0px 0px;
+	font-size: 95%;
+	text-align: center;
+	border-top: 2px solid #658A16;
+}
+
+#ft a {color: #999;}
+
+/* custom */
+
+.loading-big {
+	border: 0px solid #777;
+	width: auto;
+	height: 50px;
+	background: #fff url(../images/ajaxLoader.gif) no-repeat;
+	background-position: center;
+}
+
+h5.loading {
+	background: url(../images/ajaxLoader.gif) no-repeat 3px 3px;
+	padding-left: 15px;
+	line-height: 45px;
+	vertical-align: middle;
+	text-align: left;
+	padding-left: 55px;
+}
+
+/* 模板 */
+.template {
+	background-color: #F5F5DC;
+	padding: 0px;
+	margin: 0px;
+	display: none;
+}
+
+.loading {
+	background: url(../images/ajax/loading.gif) no-repeat;
+	vertical-align: middle;
+}
+
+/* 图片和文字排列 */
+img.status {
+	vertical-align: middle;
+}
+
+/* 按钮 */
+.btns {text-align: right; padding-right: .5em;}
+
+/* 警告 */
+span.waring {color: red; font-weight: bold;}
+
+
+/* ui tab */
+.ui-tabs .ui-tabs-panel {
+	padding: 0px;
+}
+/* jqGrid打开对话框的时候 会创建一个日期选择使用的DIV导致出现滚动条，本系统中不使用，故不显示*/
+.ui-datepicker {display: none}
+
+/* jqGrid */
+.ui-pg-table td, th { border: none; }
+.ui-jqgrid tr.ui-row-ltr td {text-align: center;}

@@ -1,0 +1,70 @@
+/* 模板 */
+.template {
+	background-color: #F5F5DC;
+	padding: 0px;
+	margin: 0px;
+	display: none;
+}
+
+/* td右对齐 */
+.label {
+	text-align: right;
+	font-weight: bold;
+}
+
+/* 表单中的表格 */
+.tableForm {
+	font-size: 13px;
+	background-color: #FFE4C4;
+}
+
+.tableForm td {
+	border-bottom: 1px dashed #DAA520;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.tableForm .label {color:#000000;}
+
+/*------ 数据列表 Start ------*/
+.row th {
+	border-right: #fff 1px solid;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+.row .alt {
+	background: #ecf6fc
+}
+
+.row .over {
+	background: #B8FCBD;
+	color: red;
+}
+
+.row .row_active {
+	background: #FBF5D0;
+}
+
+.row .row_active {
+	color: #363636;
+}
+
+/*------ 数据列表 End ------*/
+.onCorrect {
+	background: #E9FFEB url(../images/validitor/onCorrect.gif) no-repeat;
+	padding-left: 25px;
+	font-size: 12px;
+	line-height: 22px;
+	vertical-align: middle;
+}
+
+.onLoad {
+	background: #E9FFEB url(../images/validitor/onLoad.gif) no-repeat 3px
+		3px;
+	padding-left: 25px;
+	font-size: 12px;
+	line-height: 22px;
+	vertical-align: middle;
+}

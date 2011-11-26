@@ -1,0 +1,28 @@
+input[type=text] {
+	font-weight: bold;
+	padding: 2px;
+}
+.configure, #priceWordspace {
+    text-align: center;
+}
+
+.active {
+    background-color: #F2F5A9;
+    color: #000000;
+}
+
+#priceWorkspace, #operation {
+    padding-left: 1em;
+}
+
+.period {
+    padding-right: .8em;
+	line-height: 1.7em;
+}
+
+#warning {
+    background-color: #FAFAD2;
+    border: 2px #2E8B57 solid;
+    text-align: center;
+    color: red;
+}
